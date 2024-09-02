@@ -1,0 +1,37 @@
+.quiz-box {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 300px;
+  max-width: 90%;
+}
+
+.quiz-box h1 {
+  font-size: 24px;
+  color: #293264; /* Dark blue color */
+  margin-bottom: 10px;
+}
+
+.quiz-box p {
+  font-size: 14px;
+  color: #4D5B9E; /* Slightly lighter blue */
+  margin-bottom: 30px;
+}
+
+.start-button {
+  padding: 10px 20px;
+  background-color: #4D5B9E; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #3b4a8a; /* Slightly darker on hover */
+}

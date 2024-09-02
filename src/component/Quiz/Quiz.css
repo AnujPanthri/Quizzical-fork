@@ -1,0 +1,130 @@
+.quiz-page{
+  /* border: 2px solid brown; */
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #F5F7FB;
+  /* background-color: white; */
+  padding: 20px 80px;
+}
+
+.quiz-button{
+  background-color: #4D5B9E;
+  padding: 10px;
+  align-self: center;
+  border-radius: 15px;
+}
+
+
+.question-box{
+  font-size: 15px;
+  padding: 5px;
+  height: auto;
+}
+
+
+.choice-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.quiz-page ul li{
+  font-size: 10px;
+  text-align: center;
+  min-width: 40px;
+  list-style-type: none;
+  padding: 5px 10px;
+  background-color: white;
+  border-radius: 25px;
+  border: 2px solid #4D5B9E;
+  color:#293264;
+  cursor: pointer;
+}
+
+/* Choice on hover */
+
+.quiz-page ul li:hover{
+  background: #D6DBF5;
+}
+
+.quiz-page hr{
+  margin: auto;
+  margin: 10px 0;
+  height: 1px;
+  border: none;
+  background: #DBDEF0;
+}
+
+.quiz-footer{
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+  align-items: center;
+  color: #293264;
+}
+
+
+.quiz-button{
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  width: 120px;
+  height: 40px;
+  padding: 5px 10px;
+  border: none;
+}
+
+/* Quiz button on hover */
+.quiz-button:hover{
+  background-color: #313a67; 
+}
+
+.selected {
+  background-color: #D6DBF5 !important; /* Ensure the color changes */
+  border-color: #12193a !important; /* Optional: update border color */
+}
+
+.untouchedOption{
+  /* background-color: #D6DBF5 !important; */
+  border-color: #D6DBF5 !important;
+  color: #838ec4 !important;
+}
+
+
+.correct{
+  background: #94D7A2 !important;
+  border: 2px solid #94D7A2 !important;
+}
+
+.wrong{
+  background: #F8BCBC !important;
+  border:2px solid #F8BCBC !important;
+}
+
+
+/* Loading animation */
+/* Center the loader on the screen */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Spinner animation */
+.spinner {
+  border: 8px solid #f3f3f3; /* Light grey border */
+  border-top: 8px solid #4D5B9E; /* Blue border at the top */
+  border-radius: 50%; /* Make it a circle */
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite; /* Spin animation */
+}
+
+/* Keyframes for the spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

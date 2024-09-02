@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(#f4ebeb, #78f3cc);
+  min-height: 100vh;
+  font-family: 'poppins';
+}
+
